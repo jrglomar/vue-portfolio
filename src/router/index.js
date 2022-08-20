@@ -9,17 +9,20 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: Home
+        component: Home,
+        meta: { title: 'JRTG-Portfolio' }
     },
     {
         path: '/about',
         name: 'About',
-        component: About
+        component: About,
+        meta: { title: 'JRTG-Portfolio-About' }
     },
     {
         path: '/projects',
         name: 'Projects',
-        component: Projects
+        component: Projects,
+        meta: { title: 'JRTG-Portfolio-Projects' }
     },
 ]
 
