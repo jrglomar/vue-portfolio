@@ -1,10 +1,10 @@
 <template>
   <div class="fixed-container"> 
     <h1 class="main-details" width="100%">
-      <h1 class="main-page-title"><b style="color: #2c3333">Hi!</b> Its me</h1>
+      <h1 class="main-page-title"><b style="color: #2c3333">Hi!</b> I am</h1>
     </h1>
-    <h1 class="wrap animate__animated animate__bounceIn animate__slow" style="text-align: center; padding: 0px">
-      <p>
+    <h1 class="wrap" style="text-align: center; padding: 0px">
+      <p class="shadows r animate__animated animate__pulse animate__infinite  animate__slow">
         <span class="shadows r">R</span>
         <span class="shadows a">a</span>
         <span class="shadows v">v</span>

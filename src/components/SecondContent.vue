@@ -203,7 +203,6 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  width: 100%;
   padding: 20px;
 }
 .table-box {
