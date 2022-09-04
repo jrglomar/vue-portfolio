@@ -2,7 +2,7 @@
   <header :class="isSecondHeader ? 'headerColorChange' : ''">
     <div class="header-nav">
       <router-link to="/" class="title">Home </router-link>
-      <router-link to="/about" class="title">About </router-link>
+      <!-- <router-link to="/about" class="title">About </router-link> -->
       <router-link to="/projects" class="title">Projects </router-link>
     </div>
   </header>

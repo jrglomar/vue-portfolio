@@ -2,22 +2,22 @@
   <div class="page-title">
     <h1>My Knowledge</h1>
   </div>
-    <div class="knowledge-container">
-      <div class="table-box prog">
-        <SkillTable :skillSets="prog_languages" />
-      </div>
-      <div class="table-box framework">
-        <SkillTable :skillSets="frameworks" />
-      </div>
+  <div class="knowledge-container">
+    <div class="table-box prog">
+      <SkillTable :skillSets="prog_languages" />
     </div>
-    <div class="knowledge-container">
-      <div class="table-box skills">
-        <SkillTable :skillSets="technicals" />
-      </div>
-      <div class="table-box others">
-        <SkillTable :skillSets="softs" />
-      </div>
+    <div class="table-box framework">
+      <SkillTable :skillSets="frameworks" />
     </div>
+  </div>
+  <div class="knowledge-container">
+    <div class="table-box skills">
+      <SkillTable :skillSets="technicals" />
+    </div>
+    <div class="table-box others">
+      <SkillTable :skillSets="softs" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -32,7 +32,7 @@ export default {
     return {
       // prog_languages
       prog_languages: {
-        obj_title: "Programming Languages",
+        obj_title: "Languages",
         border_color: "#FFE61B",
         data: [
           {
@@ -128,6 +128,10 @@ export default {
           {
             title: "Project Management - Trello",
             rating: 4.5,
+          },
+          {
+            title: "Styling HTML from Scratch - CSS",
+            rating: 4,
           },
           {
             title: "SDLC Approach - Waterfall, Agile",

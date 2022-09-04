@@ -157,7 +157,7 @@ stack developer using following technology stacks:
     - Git
     - MySQL
     System Link: https://github.com/jrglomar/fms
-• Developed a my personal web portfolio using:
+• Developed my personal web portfolio using:
     - VueJS
     - CSS (from scratch)
     System Link: https://github.com/jrglomar/vue-portfolio

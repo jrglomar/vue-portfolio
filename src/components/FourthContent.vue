@@ -6,31 +6,27 @@
     <div class="card-body">
       <ul>
         <li>
-          <h3>Intern at PUPQC Software Research Group.</h3>
+          <h3>Intern Developer, Software Research Group</h3>
           <h5>June 2020 - Aug 2021</h5>
           <p>
-            - Handling web apps called Bitbo. <br /><a
-              target="_blank"
-              href="https://github.com/jrglomar/bitbov1"
-              >Link and Details</a
-            >
-          </p>
-          <p>
-            - Doing web design on PSUCCESS. <br /><a
-              target="_blank"
-              href="https://psuccess.ph"
-              >Link and Details</a
-            >
+            I was one of the developer of the team that develops school system
+            solutions that helped university staff to fulfill their work with
+            efficiency.
           </p>
         </li>
         <li>
-          <h3>
-            In my official OJT at PUPQC I was the lead developer of the team.
-            Developing web application.
-          </h3>
-          <h5>April 2022 - July 2022</h5>
+          <h3>Software Developer, Freelance</h3>
+          <h5>December 2020 - September 2022</h5>
           <p>
-            - Faculty Monitoring System (FMS) a web application <br /><a
+            I was doing a freelance project, such as a full-blown web app,
+            maintaining systems, etc., that I found online and with my friend's
+            contacts.
+          </p>
+        </li>
+        <li>
+          <h3>Intern Developer, Polytechnic University of the Philippines.</h3>
+          <h5>April 2022 - July 2022</h5>
+          <p>I lead the developer team developing this project called Faculty Monitoring System (FMS) a web application <br /><a
               target="_blank"
               href="https://github.com/jrglomar/fms"
               >Link and Details</a
@@ -41,45 +37,6 @@
             >
               View my OJT Portfolio
             </a>
-          </p>
-        </li>
-        <li>
-          <h3>Work as a freelancer, developed and maintained systems.</h3>
-          <h5>December 2020 - September 2022</h5>
-          <p>
-            - Forget-Me-Not a web application. <br /><a
-              target="_blank"
-              href="https://github.com/jrglomar/forgetmenot"
-              >Link and Details</a
-            >
-          </p>
-          <p>
-            - GTV Dayo a web application. <br /><a
-              target="_blank"
-              href="https://github.com/jrglomar/gtvdayo"
-              >Link and Details</a
-            >
-          </p>
-          <p>
-            - Maintained realme raffle website. <br /><a
-              target="_blank"
-              href="https://realmephpromos.com/registration"
-              >Link and Details</a
-            >
-          </p>
-          <p>
-            - Payroll Management System using VBA Excel System. <br /><a
-              target="_blank"
-              href="https://github.com/jrglomar/VBA-PMS"
-              >Link and Details</a
-            >
-          </p>
-          <p>
-            - Asset Information Management System a web application. <br /><a
-              target="_blank"
-              href="https://github.com/jrglomar/VBA-PMS"
-              >Link and Details</a
-            >
           </p>
         </li>
       </ul>
@@ -103,7 +60,7 @@ p {
   color: var(--main-bg);
 }
 h3 {
-  color: #dcd7c9;
+  color: white;
   font-weight: 600;
 }
 h5 {
@@ -127,7 +84,7 @@ h5 {
   justify-content: center;
   text-align: start;
   display: inherit;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 ul {
@@ -141,24 +98,23 @@ a {
 
 li p {
   padding-left: 5%;
-  color: #a5c9ca;
-  font-size: 14px;
+  color: white;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
   /* show it on small screens */
   .card-body {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   a {
-    font-size: 8px;
+    font-size: 10px;
   }
   li p {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
-
 </style>
 
 

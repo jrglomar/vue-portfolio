@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
+
 #app {
   padding: 0;
   margin: 0;
@@ -33,6 +34,10 @@ body {
 
 .main-details p {
   font-weight: 300;
+}
+
+a {
+	color: cyan;
 }
 
 .container {
@@ -90,6 +95,17 @@ body {
   background-color: #2C3639;
   position:relative;
   padding-top: var(--header-height);
+}
+
+.project-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #2C3639;
+  position:relative;
 }
 
 
