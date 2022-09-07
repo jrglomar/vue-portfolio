@@ -1,6 +1,6 @@
 <template>
   <div class="card-container">
-    <div class="page-title">
+    <div class="page-title card-title">
       <h2>List of Projects</h2>
     </div>
     <div class="card-body">
@@ -22,8 +22,8 @@ export default {
         data: [
           {
             title: "Faculty Monitoring System",
-            description: `I work as a lead developer in FMS team with two co-developers. 
-						FMS is a system that will aid the faculty staff in managing the
+            description: `I lead the developer team in FMS team with two co-developers. 
+						Faculty Monitoring System is a system that will aid the faculty staff in managing the
             details of submitting the required documents, class attendance, and
             campus activities. It will also provide the faculties with automated
             tools to quickly follow them. It is a web application that offers an
@@ -48,13 +48,13 @@ export default {
             ],
           },
           {
-            title: "bitbo",
-            description: `Developed a module on Project called bitbo a Barangay IT Robot is
+            title: "BITbo",
+            description: `Contribute and developed a module on Project called bitbo a Barangay IT Robot is
 						designed to handle a wide-range of information relating to barangay profile,
-						citizens profile, barangay IDs/clearances/		certifications, blotter cases, local
+						citizens profile, barangay IDs/clearances/certifications, blotter cases, local
 						businesses, and barangay legislation.`,
             stacks: ["Laravel", "MySQL", "jQuery", "Git"],
-            links: ["https://github.com/jrglomar/bitbov1"],
+            links: ["https://github.com/jrglomar/bitbov1", "https://gfmic.ph/barangay-it/"],
           },
           {
             title: "Bus Management System",
@@ -177,6 +177,10 @@ export default {
 </script>
 
 <style scoped>
+.card-title {
+  font-size: 25px;
+}
+
 .card-container {
   width: 100%;
   padding: 30px;

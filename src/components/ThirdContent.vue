@@ -1,15 +1,15 @@
 <template>
-  <div class="page-title">
-    <h1>Student Accomplishments</h1>
-  </div>
   <div class="accomplishment-container">
+    <div class="page-title">
+      <h1>Student Accomplishments</h1>
+    </div>
     <div
       class="accomplishment-card"
       id="2018"
       @click="acHandler"
       style="background-color: #ffe61b"
     >
-      <h1>View <br/>2018-2019</h1>
+      <h1>2018-2019</h1>
     </div>
     <div
       class="accomplishment-card"
@@ -17,7 +17,7 @@
       @click="acHandler"
       style="background-color: #f7f7f7"
     >
-      <h1>View <br/>2019-2020</h1>
+      <h1>2019-2020</h1>
     </div>
     <div
       class="accomplishment-card"
@@ -25,7 +25,7 @@
       @click="acHandler"
       style="background-color: #b5fe83"
     >
-      <h1>View <br/>2020-2021</h1>
+      <h1>2020-2021</h1>
     </div>
     <div
       class="accomplishment-card"
@@ -33,7 +33,7 @@
       @click="acHandler"
       style="background-color: #ffb72b"
     >
-      <h1>View <br/>2021-2022</h1>
+      <h1>2021-2022</h1>
     </div>
   </div>
 </template>
@@ -157,6 +157,10 @@ stack developer using following technology stacks:
     - Git
     - MySQL
     System Link: https://github.com/jrglomar/fms
+• Developed my personal web portfolio using:
+    - VueJS
+    - CSS (from scratch)
+    System Link: https://github.com/jrglomar/vue-portfolio
 `,
         },
       ],
@@ -187,7 +191,7 @@ stack developer using following technology stacks:
   color: var(--main-text);
 }
 .accomplishment-container {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -195,6 +199,7 @@ stack developer using following technology stacks:
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+  position: relative;
 }
 .accomplishment-card {
   background-color: white;
@@ -208,8 +213,10 @@ stack developer using following technology stacks:
   flex-wrap: wrap;
   transition: transform 1s;
   border-radius: 50%;
+  margin: 10px;
   border: 3px solid white;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 0px black;
+  cursor: pointer;
 }
 .accomplishment-card h1 {
   font-weight: 800;
@@ -223,11 +230,12 @@ stack developer using following technology stacks:
 /* TEXT RESIZE ON SCREEN SIZE 700px */
 @media screen and (min-width: 0px) and (max-width: 700px) {
   .accomplishment-card {
-    width: 50px;
-    height: 50px;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
   }
   .accomplishment-card h1 {
-    font-size: 9px;
+    font-size: 12px;
   }
 }
 </style>

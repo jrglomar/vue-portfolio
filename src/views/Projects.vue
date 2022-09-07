@@ -3,7 +3,7 @@
   <div class="container">
     <div class="main-container">
       <h1>Projects</h1>
-      <div class="secondary-content">
+      <div class="project-content">
         <ProjectContent />
       </div>
     </div>
