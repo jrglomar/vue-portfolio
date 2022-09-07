@@ -188,6 +188,7 @@ export default {
 .card-body {
   color: white;
 	width: 50%;
+	font-size: 15px;
 }
 
 /* TEXT RESIZE ON SCREEN SIZE 700px */
