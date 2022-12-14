@@ -36,6 +36,10 @@ export default {
         border_color: "#FFE61B",
         data: [
           {
+            title: "Java",
+            rating: 4.5,
+          },
+          {
             title: "Javascript",
             rating: 4.5,
           },
@@ -64,10 +68,6 @@ export default {
             rating: 3,
           },
           {
-            title: "Java",
-            rating: 3,
-          },
-          {
             title: "VBA",
             rating: 3,
           },
@@ -78,6 +78,10 @@ export default {
         obj_title: "Frameworks",
         border_color: "#F7F7F7",
         data: [
+          {
+            title: "Spring Boot",
+            rating: 4.5
+          },
           {
             title: "Laravel",
             rating: 4.5,

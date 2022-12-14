@@ -6,21 +6,9 @@
     <div class="card-body">
       <ul>
         <li>
-          <h3>Intern Developer, Software Research Group</h3>
-          <h5>June 2020 - Aug 2021</h5>
-          <p>
-            I was one of the developer of the team that develops school system
-            solutions that helped university staff to fulfill their work with
-            efficiency.
-          </p>
-        </li>
-        <li>
-          <h3>Software Developer, Freelance</h3>
-          <h5>December 2020 - September 2022</h5>
-          <p>
-            I was doing a freelance project, such as a full-blown web app,
-            maintaining systems, etc., that I found online and with my friend's
-            contacts.
+          <h3>Junior Software Engineer, Cognizant Softvision.</h3>
+          <h5>October 2022 - Present</h5>
+          <p>I've been employed by CSV as a junior software engineer. Currently, Spring Framework is being used by me on projects.<br />
           </p>
         </li>
         <li>
@@ -37,6 +25,25 @@
             >
               View my OJT Portfolio
             </a>
+          </p>
+        </li>
+        
+        <li>
+          <h3>Software Developer, Freelance</h3>
+          <h5>December 2020 - September 2022</h5>
+          <p>
+            I was doing a freelance project, such as a full-blown web app,
+            maintaining systems, etc., that I found online and with my friend's
+            contacts.
+          </p>
+        </li>
+        <li>
+          <h3>Intern Developer, Software Research Group</h3>
+          <h5>June 2020 - Aug 2021</h5>
+          <p>
+            I was one of the developer of the team that develops school system
+            solutions that helped university staff to fulfill their work with
+            efficiency.
           </p>
         </li>
       </ul>

@@ -13,9 +13,6 @@
       <ThirdContent @modalTitleTrigger="getModalTitle" />
     </div>
 
-    <div class="secondary-content">
-      <FourthContent @modalTitleTrigger="getModalTitle" />
-    </div>
   </div>
 </template>
 

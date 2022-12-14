@@ -14,7 +14,7 @@
     </h1>
     <div class="row" style="padding: 0px; justify-content: center">
       <p class="details">
-        My full name is John Raven Glomar. I'm a web developer from Quezon City.
+        My full name is John Raven Glomar. I'm a software engineer from Quezon City.
         I studied Bachelor of Science in Information Technology at the
         Polytechnic University of the Philippines. I created this portfolio
         using <img class="vue-logo" src="../assets/logo.png" /> Vue.js and style

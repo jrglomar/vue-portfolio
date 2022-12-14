@@ -3,6 +3,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Home from '../views/Home'
 import About from '../views/About'
 import Projects from '../views/Projects'
+import Experiences from '../views/Experiences'
 
 // Routes are declared here
 const routes = [
@@ -23,6 +24,12 @@ const routes = [
         name: 'Projects',
         component: Projects,
         meta: { title: 'JRTG-Portfolio-Projects' }
+    },
+    {
+        path: '/experiences',
+        name: 'Experiences',
+        component: Experiences,
+        meta: { title: 'JRTG-Portfolio-Experience' }
     },
 ]
 
